@@ -22,15 +22,17 @@ const Quote = () => {
     }
   ]
 
+  const q = quotes
+
   useEffect(() => {
     const timer = window.setInterval(() => {
-      setActiveIndex(prev => (prev + 1 >= quotes.length ? 0 : prev + 1))
+      setActiveIndex(prev => (prev + 1 >= q.length ? 0 : prev + 1))
     }, 5000)
 
     return () => {
       window.clearInterval(timer)
     }
-  }, [quotes])
+  }, [q])
 
   const [activeIndex, setActiveIndex] = useState(0)
 

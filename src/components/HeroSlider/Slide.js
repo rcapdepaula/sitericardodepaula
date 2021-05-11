@@ -9,7 +9,7 @@ const Slide = ({ slide, active }) => (
       <h1 className="wbn-header">Desenvolvimento Front End</h1>
       <p className="wbn-text">
         A mágica do React em suas aplicações com performance e design incríveis,
-        para vocÇe alcançar seus objetivos de negócio.
+        para voce alcançar seus objetivos de negócio.
         <button type="button" className="sldie-button">
           <span>COMECE GRÁTIS</span> seu teste de 14 dias
         </button>

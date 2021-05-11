@@ -1,19 +1,14 @@
 /* eslint-disable multiline-ternary */
-import React, { useState } from 'react'
+import React from 'react'
 import InvertedLogo from '../../images/logo_white.svg'
 import CloseButton from '../../images/close_button.svg'
 import { Overlay } from './OverlayMenu.styles'
 
-
 const OverlayMenu = ({ menuOpen, callback }) => {
-
-
-
-
   return (
     <Overlay menuOpen={menuOpen}>
       <div className="inner">
-        <a href ="/">
+        <a href="/">
           <img
             className="invertedLogo"
             src={InvertedLogo}
@@ -23,18 +18,12 @@ const OverlayMenu = ({ menuOpen, callback }) => {
           />
         </a>
         <ul className="overlayMenu">
-          
-          
-                <li>
-                  <a href ='/' activeClassName="nav-active">
-                    <span>item</span>
-                  
-                  </a>
-                  
-                </li>
-            
-            )
-          
+          <li>
+            <a href="/" activeClassName="nav-active">
+              <span>item</span>
+            </a>
+          </li>
+          )
         </ul>
         <div
           className="closeButton"
