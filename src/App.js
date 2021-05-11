@@ -1,10 +1,12 @@
-import CreativeCircle from './components/CreativeCircle'
 import Layout from './components/Layout/index.js'
+import Quotes from './components/Quote'
+import Hero from './components/HeroSlider/HeroSlider'
 
 function App() {
   return (
     <Layout>
-      <CreativeCircle />
+      <Hero />
+      <Quotes />
     </Layout>
   )
 }

@@ -6,10 +6,10 @@ const Slide = ({ slide, active }) => (
   <WbnSlide className={active ? 'active' : ''}>
     <StyledImg image={slide.image} />
     <div className="wbn-overlay-text">
-      <h1 className="wbn-header">Desenvolvimento Front End</h1>
+      <h1 className="wbn-header">Liberdade Para Ensinar</h1>
       <p className="wbn-text">
-        A mágica do React em suas aplicações com performance e design incríveis,
-        para vocÇe alcançar seus objetivos de negócio.
+        Ofereça cursos gravados, cursos ao vivo, download digitais, comunidades,
+        ou tudo isso junto sem se preocupar com tecnologia{' '}
         <button type="button" className="sldie-button">
           <span>COMECE GRÁTIS</span> seu teste de 14 dias
         </button>

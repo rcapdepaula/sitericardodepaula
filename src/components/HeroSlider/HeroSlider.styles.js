@@ -9,7 +9,7 @@ export const StyledImg = styled.div`
       100%
     ),
     url('${props.image}'), var(--darkGrey)`};
-  height: 100vh;
+  height: 800px;
   width: 100%;
   background-size: cover;
 `
@@ -36,7 +36,7 @@ export const WbnSlide = styled.div`
     text-align: center;
     padding: 40px 0;
     width: 100%;
-    height: 100%;
+    height: 800px;
     color: white;
     /* opacity: 0;
     transition: all 2.2s;

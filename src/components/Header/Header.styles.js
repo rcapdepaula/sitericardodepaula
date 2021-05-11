@@ -32,7 +32,7 @@ export const TopButtom = styled.button`
   display: flex;
   font-size: 14px;
   align-items: center;
-  width: 147.8px;
+  width: 168px;
   height: 44.29px;
   outline: none;
   border: 0;

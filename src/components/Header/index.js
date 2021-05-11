@@ -70,7 +70,7 @@ const Header = () => {
               <FiLinkedin size={20} color="#ffffff" />
             </a>
           </SocialMedia>
-          <TopButtom>Quero Ensinar</TopButtom>
+          <TopButtom>Quero Contratar</TopButtom>
         </Content>
       </Wrapper>
     </>
