@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { useInterval } from './useInterval'
-import Hero1 from '../../images/hero1.jpg'
-import Hero2 from '../../images/hero2.jpg'
-import Hero3 from '../../images/hero3.jpg'
+import Hero1 from '../../images/1920x1080-hero1.webp'
+import Hero2 from '../../images/1920x1080hero2.webp'
+import Hero3 from '../../images/1920x1080hero3.webp'
 
 import Slide from './Slide'
 
