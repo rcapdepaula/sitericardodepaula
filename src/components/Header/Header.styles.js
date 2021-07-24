@@ -59,7 +59,10 @@ export const TopButtom = styled.button`
 `
 
 export const SocialMedia = styled.span`
-  display: flex;
-  width: 100px;
-  justify-content: space-between;
+  display: none;
+  @media (min-width: 993px) {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+  }
 `

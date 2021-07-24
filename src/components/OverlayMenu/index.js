@@ -7,36 +7,54 @@ import { Overlay } from './OverlayMenu.styles'
 const OverlayMenu = ({ menuOpen, callback }) => {
   return (
     <Overlay menuOpen={menuOpen}>
-      <div className="inner">
-        <a href="/">
+      <div className='inner'>
+        <a href='/'>
           <img
-            className="invertedLogo"
+            className='invertedLogo'
             src={InvertedLogo}
-            alt="logo-branco"
-            width="250px"
-            height="100%"
+            alt='logo-branco'
+            width='250px'
+            height='100%'
           />
         </a>
-        <ul className="overlayMenu">
+        <ul className='overlayMenu'>
           <li>
-            <a href="/" activeClassName="nav-active">
-              <span>item</span>
+            <a href='/' activeClassName='nav-active'>
+              <li>
+                <span>Sobre min</span>{' '}
+              </li>
             </a>
+
+            <li>
+              <a href='/'>
+                <span>Aplicações</span>
+              </a>
+            </li>
+
+            <li>
+              <a href='/'>
+                <span>Componentes</span>
+              </a>
+            </li>
+            <li>
+              <a href='/'>
+                <span>Contato</span>
+              </a>
+            </li>
           </li>
-          )
         </ul>
         <div
-          className="closeButton"
+          className='closeButton'
           onClick={callback}
-          role="button"
-          tabIndex="0"
+          role='button'
+          tabIndex='0'
           onKeyDown={callback}
         >
           <img
             src={CloseButton}
-            alt="botão para fechar mobile menu"
-            width="250px"
-            height="100%"
+            alt='botão para fechar mobile menu'
+            width='250px'
+            height='100%'
           />
         </div>
       </div>
